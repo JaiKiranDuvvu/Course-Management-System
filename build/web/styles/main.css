@@ -1,0 +1,697 @@
+/********New CSS***************/
+
+* {
+    margin: 0;
+}
+html,
+body {
+    height: 100%;
+}
+.navbar-brand {
+    padding-bottom: 0px;
+    height: auto !important;
+}
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -45px;
+}
+.page-wrap:after {
+    content: "";
+    display: none;
+}
+.site-footer,
+.page-wrap:after {
+    height: 45px;
+    background-color: #000;
+    z-index:1;
+}
+.footText {
+    text-align: center;
+    margin-bottom: 0px !important;
+    padding: 10px;
+    color: #9d9d9d;
+}
+.footText:hover {
+    color:#fff;
+}
+@media screen and (max-width: 768px) {
+    .footText {
+        padding: 5px;
+        margin-right: 8px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .footText {
+        padding: 0px;
+        margin: 0px auto;
+    }
+    .navbar-brand {
+        font-size: 14px !important;
+    } 
+}
+@media screen and (max-width: 310px) {
+    .navbar-brand {
+        font-size: 10px !important;
+    } 
+}
+.navbar-inverse {
+    border-color: #FFCC80;
+    border-bottom-width: 5px;
+}
+/********End of New CSS***************/
+
+.login{
+    padding: 40px;
+    margin-bottom: 80px;
+    position: relative;
+    background-color: #f7f7f7;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.profile-img {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 20px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#login input[type=text], #login input[type=password],#register input[type=text], #register input[type=password] {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: thin solid #ccc;
+    border-radius: 5px;
+}
+.login input[type=text], .login input[type=password], .login input[type=submit] {
+    height: 55px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    -webkit-text-stroke: 0.1px;
+}
+#login_box .panel{
+background-color: #f7f7f7 !important;   
+}
+.login input {
+    outline: none;
+}
+.login input[type=submit] {
+    background-color: transparent;
+}
+.spacer { 
+    margin:0;
+    padding:0; 
+    min-height:60px; 
+}
+.panel-default>.panel-heading {
+    background-color: #FFCC80 !important;
+    border-color: #000 !important;
+}
+.panel-default {
+    border-color: #000 !important;
+}
+
+.dropdown {
+    background:transparent;
+    border-radius:4px;
+/*    width:300px; */
+}
+.dropdown-menu>li>a {
+    color:#673AB7;
+}
+.dropdown ul.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:20px;
+    width:300px;
+}
+.dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    z-index: 10;
+}
+.dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    z-index: 10;
+}
+.navbar-collapse.in {
+    overflow-y: visible;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #673AB7;
+}
+nav .sb-menu>li .sb-close{
+    min-height:50px;
+    background-color:#000; 
+} 
+/*nav .sb-menu>li:first-child{
+    border:solid 1px #fff;
+    border-top:none;
+} 
+nav .sb-menu>li:last-child{
+    border:solid 1px #fff;
+    border-top:none;
+} */
+.button_Login{
+    width: 50% !important;
+    margin: 1%;
+    margin-left:2%;
+    margin-bottom: 10px;   
+}
+/*Common CSS***************************/
+
+body {
+    min-height: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+table,
+th,
+td {
+    border: 1px solid #FFCC80;
+    padding: 1em;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #fff;
+}
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+th {
+    background-color: #673AB7;
+    color: white;
+    border-color: #FFCC80;
+}
+button {
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+td {
+    text-align: center;
+}
+td img {
+    width: 50px;
+    height: 50px;
+}
+#back_to_page {
+    margin-left: 20px;
+    text-decoration: none;
+}
+h1 {
+    color: navy;
+}
+label {
+    display: inline-block;
+/*    text-align: right;*/
+    width: 115px;
+}
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    
+    font: 1em sans-serif;
+    margin-bottom: 10px;
+    /* To give the same size to all text field */
+    
+    width: 370px;
+    height: 2.5em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* To harmonize the look & feel of text field border */
+    
+    border: 1px solid #673AB7 ;
+}
+.coloredborder{
+    border: 1px solid #000 !important;
+}
+.normalborder{
+    border: 1px solid;
+}
+textarea {
+    /* To properly align multiline text fields with their labels */
+    
+    vertical-align: top;
+    /* To give enough room to type some text */
+    
+    height: 5em;
+    /* To allow users to resize any textarea vertically
+       It does not work on every browsers */
+    
+    resize: vertical;
+}
+#submit_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    
+    margin-left: 120px;
+    background-color: #475D9F;
+    color: white;
+    border-color: #475D9F;
+    border-radius: 0.5em;
+}
+nav {
+    background-color: #f1f1f1;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+.count {
+/*    color: blue;*/
+}
+#page_name {
+    margin-top: 0px;
+    padding: .5em;
+    background-color: #D3D3CF;
+}
+#toogleMenu
+{
+    background-color:#673AB7;
+    margin-top: 55px;
+    padding: 10px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:1;
+    cursor: pointer;
+    margin-left: -15px;
+}
+.navicon-line {
+    width: 24px;
+    height: 4px;
+    border-radius: 1px;
+    margin-bottom: 3px;
+    background-color: #FFCC80 !important;
+}
+.navbar .sb-toggle-left {
+    width: 58px;
+    float: left;
+    padding: 14px;
+}
+.sb-close,.sb-close a{
+    padding: 10px;
+    color:#fff;
+}
+.sb-close:hover,.sb-close a:hover{
+    color:#D2CDB4 ;
+    font-weight: bold;
+}
+.sliderDivider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #FFCC80;
+}
+.sliderDivider:first-child {
+    margin-top: 0px; 
+}
+.sliderDivider:last-child {
+    margin-bottom: 0px;
+}
+/* header.jsp ********************************/
+
+nav#header_menu ul li a {
+    color: black;
+    display: block;
+    line-height: 2em;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+nav#menu {
+    color: black;
+    background-color: #CCFFCC;
+    font-weight: bold;
+    float: left;
+    display: block;
+    line-height: 3em;
+    margin: 20px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    text-decoration: none;
+    width: 150px;
+}
+nav#header_menu ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav .left {
+    float: left;
+    padding: 1em 1em;
+    font-weight: bold;
+    font-size: 20px;
+    color: #009933;
+}
+nav .right {
+    float: right;
+    margin-right: 2em;
+}
+/* footer.jsp *******************************/
+
+.copyright {
+    position: fixed;
+    bottom: 0;
+    margin-top: 100px;
+    width: 100%;
+    padding: 20px 20px;
+    background: #FF4D4D;
+    text-align: center;
+    color: white;
+}
+/* about.jsp ********************************/
+
+#how {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    color: black;
+    margin-top: 100px;
+    width: 70%;
+    padding: 20px;
+    border: 1px black solid;
+}
+/* aboutl.jsp *********************************/
+
+nav#menu ul li {
+    display: block;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding-left: 1em;
+}
+nav#menu ul li a {
+    color: black;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+}
+.main {
+    margin: 20px 40px 100px 20px;
+    text-align: left;
+    color: black;
+    float: left;
+    width: 70%;
+    padding: 20px;
+    border: 1px black solid;
+}
+/* confirmc.jsp *********************************/
+
+#confirmc {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    padding: 1em;
+    margin-top: 100px;
+}
+/* contact.jsp *********************************/
+
+#contact_form {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 500px;
+    padding: 1em;
+}
+/* home.jsp *********************************/
+
+#home_page {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 1000px;
+    margin-top: 40px;
+}
+/* login.jsp *********************************/
+
+#login_form {
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 1em;
+}
+#sign_up_link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #475D9F;
+    padding-left: 130px;
+}
+#signup_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    
+    float: left;
+    margin-left: 240px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: #475D9F;
+    color: white;
+    margin-bottom: 50px;
+    border-color: #475D9F;
+    border-radius: 0.5em;
+}
+#login_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    
+    margin-left: 10px;
+    width: 70px;
+    margin-top: 30px;
+    background-color: #475D9F;
+    color: white;
+    margin-bottom: 50px;
+    border-color: #475D9F;
+    border-radius: 0.5em;
+}
+/* newstudy.jsp *********************************/
+
+#newstudy_form {
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 100px;
+    padding: 1em;
+}
+/* participate.jsp *********************************/
+
+.participate {
+    width: 70%;
+    float: left;
+    margin: 30px;
+    margin-bottom: 100px;
+}
+#studies_table {
+    width: 100%;
+}
+.participate h3 {
+    margin-bottom: 30px;
+}
+.participate_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    
+    width: 100px;
+    border-radius: 0.5em;
+}
+/* question.jsp *********************************/
+
+.question_section {
+    width: 70%;
+    margin-bottom: 200px;
+    float: left;
+    margin: 30px;
+}
+.question_section h3 {
+    margin-bottom: 30px;
+}
+#question_page_image {
+    width: 250px;
+    height: 250px;
+    float: left;
+    vertical-align: middle;
+    margin: 10px;
+}
+#question_submit {
+    margin: 0 auto;
+    width: 80px;
+}
+#question_submit_div {
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 1em;
+    clear: both;
+}
+#question_select {
+    float: left;
+    margin-top: 150px;
+}
+#question_ans_select {
+    margin-left: 50px;
+}
+/* recommend.jsp *********************************/
+
+#recommend_form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+}
+#recommend_page_note {
+    font-weight: bold;
+    font-style: italic;
+    margin: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+/* signup.jsp *********************************/
+
+#signup_form {
+    margin: 0 auto;
+    width: 700px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 1em;
+}
+#signup_form label {
+    display: inline-block;
+    text-align: right;
+    width: 135px;
+}
+/* studies.jsp *********************************/
+
+#studies {
+    padding: .5em;
+    background-color: #D3D3CF;
+}
+#add_new_study a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+#my_studies_table {
+    margin: 20px 20px 20px 100px;
+    width: 80%
+}
+#studies_section {
+    margin-bottom: 100px;
+}
+#edit_study_image {
+    width: 120px;
+    height: 50px;
+    vertical-align: middle;
+    border: 2px solid black;
+    margin: 0px 10px 0px 10px;
+}
+body {
+  font-family: "Open Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+p, span, a, ul, li, button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.tile {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  cursor:pointer; 
+}
+.tile .title {
+  margin-top: 0px;
+}
+.tile.purple, .tile.blue, .tile.red, .tile.orange, .tile.green, .tile.brown, .tile.darkred, .tile.grey {
+  color: #fff;
+}
+.tile.purple {
+  background: #5133AB;
+}
+.tile.purple:hover {
+  background: #3e2784;
+}
+.tile.red {
+  background: #AC193D;
+}
+.tile.red:hover {
+  background: #7f132d;
+}
+.tile.green {
+  background: #00A600;
+}
+.tile.green:hover {
+  background: #007300;
+}
+.tile.blue {
+  background: #2672EC;
+}
+.tile.blue:hover {
+  background: #125acd;
+}
+.tile.orange {
+  background: #DC572E;
+}
+.tile.orange:hover {
+  background: #b8431f;
+}
+.tile.brown{
+    background: rgb(150, 117, 96);
+}
+.tile.brown:hover{
+    background: #A57A5E;
+}
+.tile.darkred{
+    background: #CA2129;
+}
+.tile.darkred:hover{
+    background: #FF1A25;
+}
+.tile.grey{
+    background: rgb(125, 124, 124);
+}
+.tile.grey:hover{
+    background: rgb(101, 99, 99);
+}
+
